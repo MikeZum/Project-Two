@@ -4,6 +4,7 @@ import modal from "./modules/modal";
 import calculator from './modules/calculator';
 import tabs from './modules/tabs';
 import slider from './modules/slider';
+import calc from './modules/calc';
 
 timer('28 june 2022');
 menu();
@@ -11,3 +12,4 @@ modal();
 calculator();
 tabs();
 slider('.portfolio-content', '.portfolio-item', '.portfolio-dots');
+calc(100);
